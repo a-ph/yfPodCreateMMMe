@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		0B10D30B49C5746C59AE4AE8 /* Pods-yfPodCreateMe_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yfPodCreateMe_Example.release.xcconfig"; path = "Target Support Files/Pods-yfPodCreateMe_Example/Pods-yfPodCreateMe_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1661A864F7C71D6155400C32 /* Pods-yfPodCreateMe_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yfPodCreateMe_Example.debug.xcconfig"; path = "Target Support Files/Pods-yfPodCreateMe_Example/Pods-yfPodCreateMe_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		38D40E02A022A788E80EC159 /* yfPodCreateMe.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = yfPodCreateMe.podspec; path = ../yfPodCreateMe.podspec; sourceTree = "<group>"; };
+		38D40E02A022A788E80EC159 /* yfPodCreateMe.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = yfPodCreateMe.podspec; path = ../yfPodCreateMe.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4CF36C8311CAA47661E6B7BF /* Pods_yfPodCreateMe_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yfPodCreateMe_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* yfPodCreateMe_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yfPodCreateMe_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,9 +64,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC09E6444E1BB2DA9222A8EE /* Pods-yfPodCreateMe_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yfPodCreateMe_Tests.release.xcconfig"; path = "Target Support Files/Pods-yfPodCreateMe_Tests/Pods-yfPodCreateMe_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D10B0220D1BA61E5BF4379DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D10B0220D1BA61E5BF4379DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D2AB6D21AF5DA9E449CF1B68 /* Pods-yfPodCreateMe_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yfPodCreateMe_Tests.debug.xcconfig"; path = "Target Support Files/Pods-yfPodCreateMe_Tests/Pods-yfPodCreateMe_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DB37337BAA67B2AD2F70BE75 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DB37337BAA67B2AD2F70BE75 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				D2AB6D21AF5DA9E449CF1B68 /* Pods-yfPodCreateMe_Tests.debug.xcconfig */,
 				CC09E6444E1BB2DA9222A8EE /* Pods-yfPodCreateMe_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,6 @@
+framework module Pods_yfPodCreateMe_Tests {
+  umbrella header "Pods-yfPodCreateMe_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

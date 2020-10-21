@@ -1,0 +1,16 @@
+PODS:
+  - yfPodCreateMe (0.1.0)
+
+DEPENDENCIES:
+  - yfPodCreateMe (from `../`)
+
+EXTERNAL SOURCES:
+  yfPodCreateMe:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  yfPodCreateMe: 9fcbd5e416fae761f88e0ecc3b52143c6f8d32aa
+
+PODFILE CHECKSUM: 41944ff483c061af6535ea23dffacea5078a8fb4
+
+COCOAPODS: 1.9.3
