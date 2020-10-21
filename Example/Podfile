@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'yfPodCreateMe_Example' do
+  pod 'yfPodCreateMe', :path => '../'
+
+  target 'yfPodCreateMe_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
